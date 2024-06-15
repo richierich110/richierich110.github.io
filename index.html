@@ -1,8 +1,77 @@
 <!DOCTYPE html>
 <html>
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
-		<img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jason Richmond Portfolio</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1 class=" nav-main"><a href="./index.html">Home</a></h1>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#about">About Me</a></li>
+                    <li class="nav-item"><a href="index.html#projects">Projects</a></li>
+                    <li class="nav-item"><a href="index.html#resume">Resume</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <div class="about-wrapper">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>
+                            Hello. I'm Jason Richmond, a programmer and software engineer/designer.
+                            I currently work at Machine Tek Systems Inc.
+                        </p>
+                        <p>
+                            I graduated from Shawnee State University with a Bachelor's of Science in Gaming and Simulation Design.
+                            While completing my degree, I became familiar with several different programming lanuages, 
+                            as well as standard development practices.
+                        </p>
+                        <p>
+                            In my spare time I enjoy reading detective and fantasy novels, 
+                            playing TTRPGs such as Dungeons & Dragons and Pathfinder, and writing.
+                        </p>
+                    </div>
+                    <img 
+                        src="./resources/photo.jpg"
+                        alt="A photo of me, Jason Richmond"
+                        class="photo"
+                    />
+                </div>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Mixed Messages</h3>
+                    </summary>
+                    <p class="project-description">
+                        This is a JavaScript program that outputs a randomized joke.
+                        The resulting joke usually does not make sense.
+                        Try it by pressing the button below.
+                    </p>
+                    <input id="mixed-messages-button" type="button" value="Press for a random joke!" />
+                    <p id="joke-setup" class="joke"></p>
+                    <p id="joke-punchline" class="joke"></p>
+                </details>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Portfolio</h3>
+                    </summary>
+                    <p class="project-description">This very website! Coded entirely by me.</p>
+                </details>
+            </section>
+            <section id="resume">
+                <h2>Resume</h2>
+                <a href="./resources/Jason Richmond Resume.pdf" download="Jason Richmond Resume.pdf" target="_blank">This is a link to download the latest version of my resume.</a>
+            </section>
+        </main>
+        <footer> Created by Jason Richmond.</footer>
+    </body>
+    <script src="./resources/mixedMessages.js"></script>
 </html>
