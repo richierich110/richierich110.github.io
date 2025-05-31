@@ -20,6 +20,7 @@ body {
   --border-radius: 12px;
 
   --font-color: lightgray;
+  --font-color2: blue;
 }
 
 h2 {
@@ -95,7 +96,7 @@ section {
 }
 
 a {
-  color: var(--font-color);
+  color: var(--font-color2);
   text-decoration: none;
   font-weight: 600;
 }
