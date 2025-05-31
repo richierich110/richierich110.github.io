@@ -20,7 +20,7 @@ body {
   --border-radius: 12px;
 
   --font-color: lightgray;
-  --font-color2: blue;
+  --font-color2: rgb(63, 63, 255);
 }
 
 h2 {
@@ -103,7 +103,6 @@ a {
 
 .resume {
   color: var(--font-color2);
-  -webkit-text-stroke: 1px var(--font-color);
 }
 
 @media only screen and (max-width: 600px) {
