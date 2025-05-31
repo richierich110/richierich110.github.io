@@ -96,9 +96,13 @@ section {
 }
 
 a {
-  color: var(--font-color2);
+  color: var(--font-color);
   text-decoration: none;
   font-weight: 600;
+}
+
+.resume {
+  color: var(--font-color2);
 }
 
 @media only screen and (max-width: 600px) {
