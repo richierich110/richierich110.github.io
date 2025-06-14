@@ -7,8 +7,8 @@ html {
 html,
 body {
   height: 100%;
-  color: var(--font-color);
-  background-color: #545353;
+  color: var(--font-color-dark);
+  background-color: var(--background-color-dark);
 }
 
 :root {
@@ -19,8 +19,11 @@ body {
 
   --border-radius: 12px;
 
-  --font-color: lightgray;
-  --font-color2: rgb(0, 0, 179);
+  --background-color-light: lightgray;
+  --background-color-dark: dimgray;
+  --font-color-light: dimgray;
+  --font-color-dark: lightgray;
+  --font-color-link: rgb(0, 0, 179);
 }
 
 h2 {
@@ -97,13 +100,12 @@ section {
 }
 
 a {
-  color: var(--font-color);
   text-decoration: none;
   font-weight: 600;
 }
 
 .resume {
-  color: var(--font-color2);
+  color: var(--font-color-link);
   text-decoration: underline;
 }
 
