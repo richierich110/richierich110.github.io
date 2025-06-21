@@ -20,8 +20,8 @@ body {
   --border-radius: 12px;
 
   --background-color-light: lightgray;
-  --background-color-dark: dimgray;
-  --font-color-light: dimgray;
+  --background-color-dark: rgb(55, 55, 55);
+  --font-color-light: rgb(55, 55, 55);
   --font-color-dark: lightgray;
   --font-color-link: rgb(0, 0, 179);
 }
@@ -89,6 +89,7 @@ details {
 
 footer {
   margin-top: auto;
+  width: auto;
   padding: var(--spacing-2) 0;
   text-align: center;
   background-color:black;

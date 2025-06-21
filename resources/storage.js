@@ -21,13 +21,21 @@ function getStorage(cname) {
 }
 
 function checkStorage() {
-  let mode = getStorage("username");
-  if (mode != "") {
-    alert("Welcome again " + user);
+  if (typeof(Storage) !== "undefined") {
+    return true;
   } else {
-    user = prompt("Please enter your name:", "");
-    if (user != "" && user != null) {
-      setStorage("username", user, 365);
+    return false;
+  }
+}
+
+function startupConfiguration(){
+  if(checkStorage()){
+    if(localStorage.colorMode){
+
+    } else{
+      localStorage.setItem("colorMode", "dark")
     }
+  } else{
+
   }
 }
