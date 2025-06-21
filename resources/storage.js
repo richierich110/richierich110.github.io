@@ -29,7 +29,7 @@ function changeStylesheet(newStylesheet){
   newlink.setAttribute("rel", "stylesheet");
   newlink.setAttribute("href", newStylesheet);
   
-   document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+  document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 }
 
 function startupConfiguration(){
