@@ -40,4 +40,3 @@ function startupConfiguration(){
 }
 
 body.addEventListener("load", startupConfiguration);
-popButton.addEventListener("click", removePopup);
