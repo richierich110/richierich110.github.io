@@ -127,7 +127,7 @@ a:hover{
   text-decoration: underline;
 }
 
-.resume {
+a.resume {
   color: var(--font-color-link);
   text-decoration: underline;
 }
