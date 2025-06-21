@@ -49,7 +49,6 @@ nav {
   display: flex;
   align-items: center;
   padding: var(--spacing-3) 0;
-  color: var(--font-color-dark)
 }
 
 .nav-main {
@@ -89,6 +88,11 @@ nav {
 
 details {
   cursor: pointer;
+}
+
+.popup{
+  position: fixed;
+  z-index: 100;
 }
 
 footer {
