@@ -23,7 +23,7 @@ body {
   --background-color-dark: rgb(55, 55, 55);
   --font-color-light: rgb(55, 55, 55);
   --font-color-dark: lightgray;
-  --font-color-link: rgb(25, 25, 200);
+  --font-color-link: rgb(45, 45, 130);
 
   --current-font-color: var(--font-color-dark);
   --current-bg-color: var(--background-color-dark);
