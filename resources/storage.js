@@ -29,9 +29,15 @@ function checkStorage() {
 }
 
 function startupConfiguration(){
+  const popup = document.getElementById("popup");
   if(checkStorage()){
     if(localStorage.colorMode){
+      let mode = localStorage.getItem("colorMode");
+      if(mode === "dark"){
 
+      } else{
+        
+      }
     } else{
       localStorage.setItem("colorMode", "dark")
     }

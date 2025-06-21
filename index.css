@@ -23,7 +23,7 @@ body {
   --background-color-dark: rgb(55, 55, 55);
   --font-color-light: rgb(55, 55, 55);
   --font-color-dark: lightgray;
-  --font-color-link: rgb(45, 45, 130);
+  --font-color-link: rgb(75, 75, 175);
 
   --current-font-color: var(--font-color-dark);
   --current-bg-color: var(--background-color-dark);
@@ -93,6 +93,7 @@ details {
 .popup{
   position: fixed;
   z-index: 100;
+  width: auto;
 }
 
 footer {
@@ -122,6 +123,7 @@ a:hover{
 a.resume {
   color: var(--font-color-link);
   text-decoration: underline;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
