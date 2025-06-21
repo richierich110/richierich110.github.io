@@ -25,8 +25,8 @@ body {
   --font-color-dark: lightgray;
   --font-color-link: rgb(75, 75, 175);
 
-  --current-font-color: var(--font-color-dark);
-  --current-bg-color: var(--background-color-dark);
+  --current-font-color: var(--font-color-light);
+  --current-bg-color: var(--background-color-light);
 }
 
 h2 {
