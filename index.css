@@ -7,8 +7,8 @@ html {
 html,
 body {
   height: 100%;
-  color: var(--font-color-dark);
-  background-color: var(--background-color-dark);
+  color: var(--current-font-color);
+  background-color: var(--current-bg-color);
 }
 
 :root {
@@ -24,6 +24,9 @@ body {
   --font-color-light: rgb(55, 55, 55);
   --font-color-dark: lightgray;
   --font-color-link: rgb(0, 0, 179);
+
+  --current-font-color: var(--font-color-dark);
+  --current-bg-color: var(--background-color-dark);
 }
 
 h2 {
@@ -46,6 +49,7 @@ nav {
   display: flex;
   align-items: center;
   padding: var(--spacing-3) 0;
+  color: var(--font-color-dark)
 }
 
 .nav-main {
@@ -103,6 +107,20 @@ section {
 a {
   text-decoration: none;
   font-weight: 600;
+  color: var(--current-font-color);
+}
+
+a:link{
+  color: var(--current-font-color);
+}
+
+a:visited{
+  color: var(--current-font-color);
+}
+
+a:hover{
+  color: var(--current-font-color);
+  text-decoration: underline;
 }
 
 .resume {
