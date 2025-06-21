@@ -23,7 +23,7 @@ body {
   --background-color-dark: rgb(55, 55, 55);
   --font-color-light: rgb(55, 55, 55);
   --font-color-dark: lightgray;
-  --font-color-link: rgb(45, 45, 196);
+  --font-color-link: rgb(25, 25, 200);
 
   --current-font-color: var(--font-color-dark);
   --current-bg-color: var(--background-color-dark);
@@ -113,15 +113,7 @@ a {
   font-weight: 600;
   color: var(--current-font-color);
 }
-/*
-a:link{
-  color: var(--current-font-color);
-}
 
-a:visited{
-  color: var(--current-font-color);
-}
-*/
 a:hover{
   color: var(--current-font-color);
   text-decoration: underline;
