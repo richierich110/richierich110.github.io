@@ -42,7 +42,7 @@ function startupConfiguration(){
         changeStylesheet("./light.css");
       }
     } else{
-      localStorage.setItem("colorMode", "dark")
+      localStorage.setItem("colorMode", "light")
     }
   } else{
     addPopup();
