@@ -34,15 +34,14 @@ function changeStylesheet(newStylesheet){
 
 function startupConfiguration(){
   if(checkStorage()){
-    if(localStorage.colorMode){
-      let mode = localStorage.getItem("colorMode");
-      if(mode === "dark"){
-        changeStylesheet("./dark.css");
-      } else{
-        changeStylesheet("./light.css");
-      }
-    } else{
+    if(!localStorage.colorMode){
       localStorage.setItem("colorMode", "light")
+    }
+    let mode = localStorage.getItem("colorMode");
+    if(mode === "dark"){
+      changeStylesheet("./dark.css");
+    } else{
+      changeStylesheet("./light.css");
     }
   } else{
     addPopup();
