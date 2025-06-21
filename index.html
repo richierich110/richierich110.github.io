@@ -6,7 +6,7 @@
         <title>Jason Richmond Portfolio</title>
         <link rel="stylesheet" href="./index.css" />
     </head>
-    <body>
+    <body id="body">
         <header>
             <nav>
                 <h1 class=" nav-main"><a href="./index.html">Home</a></h1>
@@ -71,7 +71,10 @@
                 <h2>Resume</h2>
                 <a class="resume" href="./resources/Jason Richmond Resume.pdf" download="Jason Richmond Resume.pdf" target="_blank">This is a link to download the latest version of my resume.</a>
             </section>
-            <div id="storage"></div>
+            <div id="storage" style="display: none;">
+                <p class="popup">Please enable cookies to switch between Dark & Light modes</p>
+                <p id="popupButton" class="popupButton">X</p>
+            </div>
         </main>
         <footer> Created by Jason Richmond.</footer>
     </body>

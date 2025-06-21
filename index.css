@@ -90,10 +90,18 @@ details {
   cursor: pointer;
 }
 
-.popup{
+#storage{
   position: fixed;
   z-index: 100;
   width: auto;
+}
+
+#storage.popup{
+  align-self: flex-start;
+}
+
+#storage.popup{
+  align-self: flex-end;
 }
 
 footer {
