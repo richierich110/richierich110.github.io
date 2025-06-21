@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  color: var(--current-font-color);
+  background-color: var(--current-bg-color);
+}
+
+:root {
+  --spacing-1: 8px;
+  --spacing-2: 12px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+
+  --border-radius: 12px;
+
+  --background-color-light: lightgray;
+  --background-color-dark: rgb(55, 55, 55);
+  --font-color-light: rgb(55, 55, 55);
+  --font-color-dark: lightgray;
+  --font-color-link: rgb(75, 75, 175);
+
+  --current-font-color: var(--font-color-dark);
+  --current-bg-color: var(--background-color-dark);
+}
+
+h2 {
+  font-family: sans-serif;
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0 var(--spacing-3);
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 0;
+}
+
+.nav-main {
+    margin: 0;
+  }
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: var(--spacing-1);
+}
+
+.photo {
+  width: 300px;
+  border-radius: var(--border-radius);
+  flex-shrink: 0;
+}
+
+.about-wrapper {
+  display: flex;
+}
+
+.about-text {
+  margin-right: var(--spacing-3);
+}
+
+.project-title h3 {
+  display: inline;
+}
+
+details {
+  cursor: pointer;
+}
+
+#storage{
+  position: fixed;
+  z-index: 100;
+  width: auto;
+}
+
+#storage.popup{
+  align-self: flex-start;
+}
+
+#storage.popup{
+  align-self: flex-end;
+}
+
+footer {
+  margin-top: auto;
+  width: auto;
+  padding: var(--spacing-2) 0;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+
+section {
+  padding: var(--spacing-3) 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--current-font-color);
+}
+
+a:hover{
+  color: var(--current-font-color);
+  text-decoration: underline;
+}
+
+a.resume {
+  color: var(--font-color-link);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+}
