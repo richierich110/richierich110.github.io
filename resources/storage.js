@@ -12,7 +12,6 @@ function checkStorage() {
 
 function addPopup(){
   const popup = document.getElementById("storage");
-  popButton.addEventListener("click", removePopup);
   popup.style.display = "flex";
 }
 
@@ -49,3 +48,4 @@ function startupConfiguration(){
 }
 
 body.addEventListener("load", startupConfiguration);
+popButton.addEventListener("click", removePopup);
