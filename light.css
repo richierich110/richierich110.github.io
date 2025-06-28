@@ -93,6 +93,7 @@ details {
 #storage{
   position: fixed;
   display: inline-flex;
+  flex-direction: row;
   align-content: space-between;
   bottom: 0;
   z-index: 100;
