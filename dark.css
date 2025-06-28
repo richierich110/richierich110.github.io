@@ -92,7 +92,6 @@ details {
 
 #storage{
   position: fixed;
-  display: inline-block;
   align-content: space-between;
   bottom: 0;
   z-index: 100;
@@ -101,6 +100,7 @@ details {
 }
 
 #storage.popup{
+  display: inline-block;
   margin-left: 0px;
 }
 
