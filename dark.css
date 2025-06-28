@@ -94,6 +94,7 @@ details {
   position: fixed;
   z-index: 100;
   width: auto;
+  background-color: rgb(23, 23, 23);
 }
 
 #storage.popup{
@@ -101,7 +102,8 @@ details {
 }
 
 #storage.popupButton{
-  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 5px;
 }
 
 footer {
