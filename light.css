@@ -92,6 +92,7 @@ details {
 
 #storage{
   position: fixed;
+  align-content: space-between;
   bottom: 0;
   z-index: 100;
   width: auto;
