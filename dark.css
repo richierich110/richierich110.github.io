@@ -96,7 +96,7 @@ details {
   bottom: 0;
   z-index: 100;
   width: auto;
-  background-color: rgb(23, 23, 23);
+  background-color: rgba(23, 23, 23, .3);
 }
 
 #storage.popup{
