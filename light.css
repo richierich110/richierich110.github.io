@@ -100,7 +100,7 @@ details {
 }
 
 #storage.popup{
-  align-self: flex-start;
+  margin-left: 0px;
 }
 
 #storage.popupButton{
