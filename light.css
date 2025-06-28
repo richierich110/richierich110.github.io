@@ -92,6 +92,7 @@ details {
 
 #storage{
   position: fixed;
+  display: inline-block;
   align-content: space-between;
   bottom: 0;
   z-index: 100;
@@ -104,6 +105,7 @@ details {
 }
 
 #storage.popupButton{
+  float: right;
   margin-left: auto;
   margin-right: 5px;
 }
