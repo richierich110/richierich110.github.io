@@ -97,6 +97,7 @@ details {
   align-content: space-between;
   bottom: 0;
   z-index: 100;
+  margin: auto;
   width: max-content;
   background-color: rgba(23, 23, 23, .7);
 }
