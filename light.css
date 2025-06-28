@@ -95,10 +95,11 @@ details {
   display: inline-flex;
   flex-direction: row;
   align-content: space-between;
+  left: 0;
   bottom: 0;
   z-index: 100;
   margin: auto;
-  width: max-content;
+  max-width: 100%;
   background-color: rgba(23, 23, 23, .7);
 }
 
