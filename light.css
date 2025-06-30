@@ -106,7 +106,7 @@ details {
 
 #storage.popup{
   float: left;
-  margin-left: 10%;
+  padding-left: 10%;
 }
 
 #storage.popupButton{
