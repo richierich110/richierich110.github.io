@@ -105,12 +105,13 @@ details {
 }
 
 #storage.popup{
-  display: inline-block;
+  float: left;
   margin-left: 10%;
 }
 
 #storage.popupButton{
   float: right;
+  align-self: flex-end;
 }
 
 footer {
