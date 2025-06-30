@@ -104,6 +104,7 @@ details {
   padding-right: 10%;
   max-width: 100%;
   background-color: rgba(23, 23, 23, .7);
+  overflow: visible;
   color:white;
 }
 
