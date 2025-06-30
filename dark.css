@@ -100,8 +100,8 @@ details {
   z-index: 100;
   width: 100vw;
   margin: auto; 
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   max-width: 100%;
   background-color: rgba(23, 23, 23, .7);
   overflow: visible;
