@@ -104,6 +104,7 @@ details {
   padding-right: 10%;
   max-width: 100%;
   background-color: rgba(23, 23, 23, .7);
+  color:white;
 }
 
 #storage.popup{
@@ -114,6 +115,8 @@ details {
 #storage.popupButton{
   float: right;
   align-self: flex-end;
+  background-color: rgba(23, 23, 23, .7);
+  color:white;
 }
 
 footer {
