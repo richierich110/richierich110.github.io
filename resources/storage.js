@@ -51,5 +51,5 @@ function startupConfiguration(){
   }
 }
 
-body.addEventListener("load", startupConfiguration);
+body.addEventListener("DOMContentLoaded", startupConfiguration);
 popButton.addEventListener("click", removePopup);
