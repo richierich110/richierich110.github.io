@@ -1,6 +1,7 @@
 
 const body = document.getElementById("body");
 const popButton = document.getElementById("popupButton");
+const store = document.getElementById("storage_status");
 
 function checkStorage() {
   if (typeof(Storage) !== "undefined") {
@@ -35,14 +36,17 @@ function startupConfiguration(){
   if(checkStorage()){
     if(!localStorage.colorMode){
       localStorage.setItem("colorMode", "light")
+      store.innerText = "set to Light";
     }
     let mode = localStorage.getItem("colorMode");
     if(mode === "dark"){
       changeStylesheet("./dark.css");
+      store.innerText = "set to Dark";
     } else{
       changeStylesheet("./light.css");
     }
   } else{
+    store.innerText = "no storage";
     addPopup();
   }
 }
